@@ -17,24 +17,28 @@
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:text="@string/team_a_score"
-    android:layout_margin="@dimen/textView_margin"/>
+    android:layout_margin="@dimen/textView_margin"
+    android:id="@+id/team_a_score"/>
   <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/button_1"
     android:textAllCaps="true"
-    android:layout_margin="@dimen/button_margin"/>
+    android:layout_margin="@dimen/button_margin"
+    android:onClick="addThreeForTeamA"/>
   <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/button_2"
     android:textAllCaps="true"
-    android:layout_margin="@dimen/button_margin"/>
+    android:layout_margin="@dimen/button_margin"
+    android:onClick="addTwoForTeamA"/>
   <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/button_3"
     android:textAllCaps="true"
-    android:layout_margin="@dimen/button_margin"/>
+    android:layout_margin="@dimen/button_margin"
+    android:onClick="addOneForTeamA"/>
 
 </LinearLayout>
