@@ -1,13 +1,14 @@
 <resources>
-  <string name="app_name">Court Counter</string>
-  <string name="team_a">Team A</string>
-  <string name="team_b">Team B</string>
-  <string name="team_a_score">0</string>
-  <string name="team_b_score">0</string>
-  <string name="button_a1">+3 points</string>
-  <string name="button_a2">+2 points</string>
-  <string name="button_a3">free throw</string>
-  <string name="button_b1">+3 points</string>
-  <string name="button_b2">+2 points</string>
-  <string name="button_b3">free throw</string>
+    <string name="app_name">Court Counter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="team_a_score">0</string>
+    <string name="team_b_score">0</string>
+    <string name="button_a1">+3 points</string>
+    <string name="button_a2">+2 points</string>
+    <string name="button_a3">free throw</string>
+    <string name="button_b1">+3 points</string>
+    <string name="button_b2">+2 points</string>
+    <string name="button_b3">free throw</string>
+    <string name="button_reset">reset</string>
 </resources>

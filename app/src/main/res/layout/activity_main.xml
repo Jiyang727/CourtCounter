@@ -1,102 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:baselineAligned="false"
     tools:context="com.example.android.courtcounter.MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:baselineAligned="false"
+        android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/textView_margin"
-            android:gravity="center_horizontal"
-            android:text="@string/team_a" />
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/team_a_score"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/textView_margin"
-            android:gravity="center_horizontal"
-            android:text="@string/team_a_score" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textView_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/team_a" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:onClick="addThreeForTeamA"
-            android:text="@string/button_a1"
-            android:textAllCaps="true" />
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textView_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/team_a_score" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:onClick="addTwoForTeamA"
-            android:text="@string/button_a2"
-            android:textAllCaps="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:onClick="addThreeForTeamA"
+                android:text="@string/button_a1"
+                android:textAllCaps="true" />
 
-        <Button
-            android:layout_width="match_parent"
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:onClick="addTwoForTeamA"
+                android:text="@string/button_a2"
+                android:textAllCaps="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:onClick="addOneForTeamA"
+                android:text="@string/button_a3"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:onClick="addOneForTeamA"
-            android:text="@string/button_a3"
-            android:textAllCaps="true" />
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textView_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/team_b" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textView_margin"
+                android:gravity="center_horizontal"
+                android:text="@string/team_a_score" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:onClick="addThreeForTeamB"
+                android:text="@string/button_b1"
+                android:textAllCaps="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:onClick="addTwoForTeamB"
+                android:text="@string/button_b2"
+                android:textAllCaps="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:onClick="addOneForTeamB"
+                android:text="@string/button_b3"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
     </LinearLayout>
 
-    <LinearLayout
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/textView_margin"
-            android:gravity="center_horizontal"
-            android:text="@string/team_b" />
-
-        <TextView
-            android:id="@+id/team_b_score"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/textView_margin"
-            android:gravity="center_horizontal"
-            android:text="@string/team_a_score" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:onClick="addThreeForTeamB"
-            android:text="@string/button_b1"
-            android:textAllCaps="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:onClick="addTwoForTeamB"
-            android:text="@string/button_b2"
-            android:textAllCaps="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/button_margin"
-            android:onClick="addOneForTeamB"
-            android:text="@string/button_b3"
-            android:textAllCaps="true" />
-    </LinearLayout>
-
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/button_margin"
+        android:onClick="resetScore"
+        android:text="@string/button_reset"
+        android:textAllCaps="true" />
+</RelativeLayout>
