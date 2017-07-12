@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#FB8C00</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorButtonNormal">#FF9800</color>
+    <color name="colorTeamName">#616161</color>
+    <color name="colorScore">#000000</color>
 </resources>
