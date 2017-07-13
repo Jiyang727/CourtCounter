@@ -19,55 +19,28 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/team_margin"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="@string/team_a"
-                android:textColor="@color/colorTeamName"
-                android:textSize="@dimen/team_text_size" />
+                style="@style/TeamNameStyle"
+                android:text="@string/team_a" />
 
             <TextView
                 android:id="@+id/team_a_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/score_margin_bottom"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center_horizontal"
-                android:text="@string/team_a_score"
-                android:textColor="@color/colorScore"
-                android:textSize="@dimen/score_text_size" />
+                style="@style/TeamScoreStyle"
+                android:text="@string/team_a_score" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginEnd="@dimen/button_margin_right"
-                android:layout_marginStart="@dimen/button_margin_left"
+                style="@style/ButtonStyle"
                 android:onClick="addThreeForTeamA"
-                android:text="@string/button_a1"
-                android:textAllCaps="true" />
+                android:text="@string/button_a1" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginEnd="@dimen/button_margin_right"
-                android:layout_marginStart="@dimen/button_margin_left"
+                style="@style/ButtonStyle"
                 android:onClick="addTwoForTeamA"
-                android:text="@string/button_a2"
-                android:textAllCaps="true" />
+                android:text="@string/button_a2" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginEnd="@dimen/button_margin_right"
-                android:layout_marginStart="@dimen/button_margin_left"
+                style="@style/ButtonStyle"
                 android:onClick="addOneForTeamA"
-                android:text="@string/button_a3"
-                android:textAllCaps="true" />
+                android:text="@string/button_a3" />
 
         </LinearLayout>
 
@@ -84,55 +57,28 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/team_margin"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center_horizontal"
-                android:text="@string/team_b"
-                android:textColor="@color/colorTeamName"
-                android:textSize="@dimen/team_text_size" />
+                style="@style/TeamNameStyle"
+                android:text="@string/team_b" />
 
             <TextView
                 android:id="@+id/team_b_score"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/score_margin_bottom"
-                android:fontFamily="sans-serif-light"
-                android:gravity="center_horizontal"
-                android:text="@string/team_b_score"
-                android:textColor="@color/colorScore"
-                android:textSize="@dimen/score_text_size" />
+                style="@style/TeamScoreStyle"
+                android:text="@string/team_b_score" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginEnd="@dimen/button_margin_right"
-                android:layout_marginStart="@dimen/button_margin_left"
+                style="@style/ButtonStyle"
                 android:onClick="addThreeForTeamB"
-                android:text="@string/button_b1"
-                android:textAllCaps="true" />
+                android:text="@string/button_b1" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginEnd="@dimen/button_margin_right"
-                android:layout_marginStart="@dimen/button_margin_left"
+                style="@style/ButtonStyle"
                 android:onClick="addTwoForTeamB"
-                android:text="@string/button_b2"
-                android:textAllCaps="true" />
+                android:text="@string/button_b2" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginEnd="@dimen/button_margin_right"
-                android:layout_marginStart="@dimen/button_margin_left"
+                style="@style/ButtonStyle"
                 android:onClick="addOneForTeamB"
-                android:text="@string/button_b3"
-                android:textAllCaps="true" />
+                android:text="@string/button_b3" />
         </LinearLayout>
 
     </LinearLayout>
